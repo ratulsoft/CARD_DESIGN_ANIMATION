@@ -1,0 +1,111 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #313a5c, #4951a1);
+    overflow: hidden;
+}
+
+.abstract-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Floating circle */
+/* .circle {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #f56cae, #c850c0);
+    border-radius: 50%;
+    filter: blur(20px);
+    animation: float 5s infinite ease-in-out alternate;
+}
+
+/* Floating triangle */
+/* .triangle {
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 260px solid #47e1d3;
+    opacity: 0.8;
+    animation: rotate 6s infinite linear;
+}
+
+/* Blobby shape */
+/* .blob {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(145deg, #ff8a65, #ff7043);
+    border-radius: 50% 60% 70% 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(15px);
+    animation: blob-move 8s infinite ease-in-out alternate;
+} */ 
+
+/* Animations */
+/* @keyframes float {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        transform: translateY(-30px) scale(1.2);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes blob-move {
+    0% {
+        border-radius: 50% 60% 70% 50%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        border-radius: 60% 50% 50% 70%;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+.card{
+    width: 450px;
+    height: 300px;
+    /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(255, 255, 255, 0.22);
+    position: absolute;
+ transform: rotate3d(0deg); 
+
+
+}
+.card:hover{
+   
+} */ 
